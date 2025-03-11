@@ -1,5 +1,6 @@
 export const config = {
     port: 3000, // Local Listening port
+    cron: 5, // Process time in Minutes
     endpoint: 'http://sidinterface.domiruth.com/api/Facturacion/ProcessTicket', // Remote client endpoint
 
     tourplan_db: { // Remote tourplan database configuration

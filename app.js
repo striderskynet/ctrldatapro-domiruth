@@ -24,7 +24,7 @@ app.get("/run", async (_, res) => {
 app.listen(PORT, function (err) {
     if (err) console.log('Something went wrong', err)
     else {
-        console.log('Server is listening on port: %d', PORT);
+        console.log('Server is listening on port: %d, Scheduled to run every %d minutes.', PORT, config.cron);
         console.log('Executing First Load Integration Process in 5 seconds...');
         setTimeout(() => {
             send_documents();
@@ -34,7 +34,7 @@ app.listen(PORT, function (err) {
 });
 
 /**  Scheduling process by node-cron: Default every 5 Min */
-cron.schedule('*/5 * * * *', async () => {
+cron.schedule(`*/${config.cron} * * * *`, async () => {
     console.log('Executing Scheduled Integration Process');
 
     // Execute logic here
