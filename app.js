@@ -35,6 +35,8 @@ app.listen(PORT, function (err) {
 
 /**  Scheduling process by node-cron: Default every 5 Min */
 cron.schedule('*/5 * * * *', async () => {
-    console.log('Executing Schedule Integration Process');
+    console.log('Executing Scheduled Integration Process');
+
     // Execute logic here
+    send_documents();
 });
