@@ -1,0 +1,34 @@
+{
+	"nroCotizacion": "10223",
+	"idTipoDoc": "03",
+	"fechaServicio": "2024-06-29T00:00:00.000Z",
+	"fechaVence": "2024-06-17T00:00:00.000Z",
+	"docIdentidadCli": "00056213",
+	"razonSocialCli": "POPCORN TOURS / TRAVEL WITH SEARS GROUP",
+	"textoImp": "Luis Gonzalez x 02 T/TARJETA SS 29JUN/05JUL POR LOS SERVICIOS INTANGIBLES DE ORGANIZACIÓN DEL PRESENTE PAQUETE TURISTICO CONSUMIDO EN EL PERU, A FAVOR DE NUESTRO CLIENTE OPERADOR TURISTICO DEL EXTERIOR",
+	"docCounter": "000013",
+	"docVendedor": "000831",
+	"credito": "0",
+	"idFormaPago": "29",
+	"subAfecto": 0,
+	"subInafecto": 938.83,
+	"docEchoPor": "000013",
+	"docCotizador": "XI",
+	"docReserva": "04",
+	"listdetalle": [
+		{
+			"idcab": 0,
+			"iddestino": "LIM",
+			"pasajero": "Luis Gonzalez x 02",
+			"idTipoServicio": "00007",
+			"importe": 795.66
+		},
+		{
+			"idcab": 0,
+			"iddestino": "LIM",
+			"pasajero": "Luis Gonzalez x 02",
+			"idTipoServicio": "00297",
+			"importe": 143.17
+		}
+	]
+}

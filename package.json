@@ -1,0 +1,18 @@
+{
+	"type": "module",
+	"name": "tourplan_domiruth_integration",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node ./bin/www"
+	},
+	"devDependencies": {
+		"axios": "^1.8.2",
+		"express": "4.16.1",
+		"node-cron": "3.0.3",
+		"pg": "^8.13.3",
+		"pg-hstore": "^2.3.4",
+		"sequelize": "6.37.6",
+		"tedious": "^18.6.1"
+	}
+}
